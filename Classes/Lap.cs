@@ -8,9 +8,4 @@ public class Lap
     {
         Gui = new LapGui(this); // Pass this Lap instance to the Database class
     }
-
-    public void sendMessage(string message)
-    {
-        Console.WriteLine($"{message}");
-    }
 }
